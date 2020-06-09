@@ -13,7 +13,7 @@ module.exports = {
   },
 
   output: {
-    publicPath: "http://localhost:3002/"
+    publicPath: "http://localhost:5000/02/"
   },
 
   resolve: {
