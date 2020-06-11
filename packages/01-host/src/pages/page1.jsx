@@ -1,13 +1,13 @@
 import React from "react";
 
-const Dialog = React.lazy(() => import("app_two/Dialog"));
+//const Dialog = React.lazy(() => import("app_two/Dialog"));
+const PageContent = React.lazy(() => import("app_two/Content"));
 
 const Page1 = () => {
     return (
         <div>
-            <h1>Page 1</h1>
             <React.Suspense fallback="Loading Material UI Dialog...">
-                <Dialog />
+                <PageContent />
             </React.Suspense>
         </div>
     );

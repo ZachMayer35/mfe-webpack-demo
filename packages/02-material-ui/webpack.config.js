@@ -38,7 +38,7 @@ module.exports = {
       library: { type: "var", name: "app_two" },
       filename: "remoteEntry.js",
       exposes: {
-        Dialog: "./src/Dialog"
+        Content: "./src/MuiDefaultPage"
       },
       remotes: {
         app_one: "app_one",
